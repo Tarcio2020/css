@@ -14,3 +14,8 @@ ex:
     </style>
  
  OU O GEITO MAIS USADO CRIANDO UM ARQUIVO MAIN.CSS
+
+Base do CSS:
+ Seletor {
+    propriedade: valor;
+ }
