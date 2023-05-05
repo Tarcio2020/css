@@ -1,0 +1,12 @@
+.model h1 {
+    color: pink;
+    height: 37px;
+    padding: 8px 2px 3px 4px;
+    border: 2px solid red;
+
+    margin: 0; /** Não altera a altura do texto**/
+}
+
+* {
+    color: gray;
+}
