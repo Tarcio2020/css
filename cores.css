@@ -1,0 +1,60 @@
+
+body > header {
+    background-color: aquamarine;
+    padding: 16px 0;
+}
+
+header .container {
+    display: flex;
+}
+
+header li {
+    display: inline;
+    align-items: center;
+}
+
+header li a {
+    color: aliceblue;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    /***justify-content: space-between;***/
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles article img {
+    height: 180px;
+    position: fl;
+}
+
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+
+}
+
+section h2 .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;/***para não sobre por***/
+}
