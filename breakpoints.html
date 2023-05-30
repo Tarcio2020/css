@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREAKPOINTS</title>
+    
+<style>
+
+    li {
+        width: 100%;
+        /*
+        float: left; 
+        faz os intens ficarem um ao lado do outro*/
+
+}
+
+li img {
+    width: 100%;
+    list-style-type: none;
+}
+
+/*
+@media screen and (max-width:640px){
+    body {
+        background-color: black;
+    }
+    faz com que a tela troque de cor ao ficar a menos de 640px
+}
+*/
+
+
+
+/*
+@media screen and (max-width:640px){
+    body {
+        max-width: 100%;
+    }
+}
+faz a tela ficar responsiva par o smartphone*/
+
+@media screen and (max-width:1366px){
+    li {
+        max-width: 33%;
+        float: left;
+    }
+}
+/*vai fazer com que imagem aumente em grandes telas depois de 1366px*/
+
+@media screen and (orientation: portrait) and (max-width:640px) {
+    body {
+        background-color: blue;
+    }
+}
+@media print {
+    h3 {
+        color: red;
+    }
+}
+/*Podemos editar como o usuário vai imprimir    */    
+
+</style>
+</head>
+<body>
+
+
+<section>
+  <ul>
+    <li>
+        <img src="./imagens/basquete.jpg" alt="">
+    <h2>Basquete</h2>
+    </li>
+    <li>
+        <img src="./imagens/basquete.jpg" alt="">
+    <h2>Basquete</h2>
+    </li>
+    <li>
+        <img src="./imagens/basquete.jpg" alt="">
+    <h2>Basquete</h2>
+    </li>
+  </ul>
+</section>
+
+
+    <p>
+        No desenvolvimento de software, um ponto de parada ou ponto de interrupção é um ponto intencional de pausa num programa de computador durante a depuração. De forma geral, ele representa a habilidade de adquirir conhecimento sobre um programa durante sua execução. Durante a interrupção da execução, o programador pode inspecionar o ambiente que cerca o programa, como logs, memória, arquivos, para determinar se o programa está sendo executado como o esperado. O ponto de parada é uma ferramenta importante de depuração pois permite especificar o momento da suspensão da execução, automatizando o processo, ao invés da execução passo a passo do código. O ponto de parada também é útil para monitorar regiões limitadas de código, mesmo em projetos de grande escala.
+
+A forma mais comum de ponto de parada é quando a execução do programa é interrompida antes de uma instrução especificada pelo programador. Entretanto, outros tipos de pontos de parada podem ser usados, como a leitura ou escrita dum endereço ou área de memória específicos, um ponto específico do tempo, um evento específico (a chegada duma mensagem na rede) ou uma expressão específica (centésima passagem pela linha X do código).
+
+Diversos processadores incluem suporte em hardware para ponto de parada, e podem impor restrições de uso quanto ao local do ponto de parada. Mesmo sem suporte em hardware, os depuradores podem implementar pontos de parada em software. Para pontos de parada em instruções é uma tarefa simples substituir a instrução na localização do ponto de parada. Entretanto, implementar em software pontos de parada para áreas de memória pode impactar no desempenho da aplicação sendo depurada. 
+    </p>
+    
+</body>
+</html>
