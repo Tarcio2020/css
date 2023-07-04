@@ -1,0 +1,19 @@
+.form {
+  margin: 40px;
+}
+.form__control {
+  margin-bottom: 16px;
+  font-size: sans-serif;
+}
+.form__submit {
+  cursor: pointer;
+}
+.form__submit__sending {
+  cursor: wait;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+/*# sourceMappingURL=main.css.map */

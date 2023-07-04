@@ -1,0 +1,23 @@
+.form {
+    margin: 40px;
+
+    &__control {
+        margin-bottom: 16px;
+        font-size: sans-serif;
+    }
+
+    &__submit {
+        cursor: pointer;
+
+        &__sending {
+            cursor: wait;
+        }
+    }
+
+
+}
+
+
+body {
+    background-color: aliceblue;
+}
